@@ -38,7 +38,8 @@ public class TakePictureActivity extends AppCompatActivity {
 //    private final static int REQUEST_PERMISSION = 123;
     private String[] mPermissionsArrays = new String[]{Manifest.permission.CAMERA,
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_EXTERNAL_STORAGE};
+            Manifest.permission.READ_EXTERNAL_STORAGE,
+            Manifest.permission.RECORD_AUDIO,};
 
     @Override
 
